@@ -1,0 +1,11 @@
+# Node.js
+node_modules
+
+# Editors
+.vscode
+
+# Environment variables
+.env
+
+# Development-only files
+dev

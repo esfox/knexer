@@ -1,0 +1,26 @@
+{
+  "name": "knexer",
+  "version": "1.0.0",
+  "description": "Models for Knex.js",
+  "author": "https://github.com/esfox",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules/*"
+    ],
+    "exec": "node -r esm dev",
+    "ext": "js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "knex": "^0.21.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sqlite3": "^5.0.0"
+  }
+}
