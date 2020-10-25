@@ -1,6 +1,6 @@
 {
   "name": "knexer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Wrapper of Knex.js with a base model and modular migration support.",
   "author": "https://github.com/esfox",
   "license": "MIT",
